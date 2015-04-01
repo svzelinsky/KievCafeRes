@@ -28,7 +28,7 @@ body {
 .caption {
 	font-family: tahoma;
 	font-size: 73px;
-	margin-top: 50px;
+	margin-top: 10px;
 	color: #000;
 }
 .slogan {
@@ -68,7 +68,7 @@ body {
 	background:-o-linear-gradient(#fc3939, #c70808);
 	background:-moz-linear-gradient(#fc3939, #c70808);
 	background:linear-gradient(#fc3939, #c70808);
-	margin: 80px auto;
+	margin: 80px auto 10px auto;
 	border:solid 3px #999;
 	border-radius: 20px;
 	line-height: 55px;
@@ -88,7 +88,10 @@ body {
 }
 #learn-more {
 	width: 150px;
-	margin: 40px auto;
+	margin: 40px auto 10px auto;
+	-o-transition: opacity .2s ease-in-out;
+	-webkit-transition: opacity .2s ease-in-out;
+	-moz-transition: opacity .2s ease-in-out;
 	transition: opacity .2s ease-in-out;
 }
 #learn-more > p {
@@ -96,6 +99,9 @@ body {
 	font-size: 18px;
 	margin-bottom: 20px;
 	color: #aaa;
+	-o-transition:all .2s ease-in-out;
+	-webkit-transition:all .2s ease-in-out;
+	-moz-transition:all .2s ease-in-out;
 	transition:all .2s ease-in-out;
 }
 #learn-more>p, #learn-more>img {
