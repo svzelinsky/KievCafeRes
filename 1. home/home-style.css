@@ -22,13 +22,13 @@ body {
 	background:url('images/home-logo.png');
 	width: 206px;
 	height: 127px;
-	margin: 20px auto;
+	margin: 10px auto;
 	border-radius: 3px;
 }
 .caption {
 	font-family: tahoma;
 	font-size: 73px;
-	margin-top: 10px;
+	margin-top: 20px;
 	color: #000;
 }
 .slogan {
